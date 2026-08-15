@@ -13,12 +13,8 @@ public:
         while(n%5==0){
             n=n/5;
         }
-        if(n==1){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return n==1;
+
 
 
         
